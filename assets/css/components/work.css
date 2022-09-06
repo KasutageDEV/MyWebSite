@@ -1,0 +1,76 @@
+.work {
+	background: #fff;
+}
+
+.work__box {
+	display: block;
+	position: relative;
+	background: #fff;
+	width: 100%;
+	height: auto;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.30);
+}
+
+.word__illustration {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100px;
+	border-radius: 20px 20px 0 0;
+	overflow: hidden;
+}
+
+.work__img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: 20px 20px 0 0;
+}
+
+.word__body {
+	padding: 20px 10px;
+	text-transform: uppercase;
+}
+
+.work__name {
+	color: #333;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.work__type {
+	color: #8F8F8F;
+	font-size: 15px;
+	font-weight: lighter;
+}
+
+.work__button {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 10px 0;
+	border-radius: 0 0 20px 20px;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: lighter;
+	background: #38B6FF;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.work__modal {
+	display: block;
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 0;
+	background: ;
+}

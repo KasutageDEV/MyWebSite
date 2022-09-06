@@ -1,0 +1,32 @@
+.presentation {
+	position: relative;
+	width: 100%;
+	height: auto;
+	background: #38B6FF;
+	color: #fff;
+	margin-bottom: 159px;
+}
+
+.presentation__title {
+	display: block;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.presentation__text {
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+.presentation__imgs {
+	width: 100%;
+	height: auto;
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+.presentation__waves {
+	position: absolute;
+	width: 100%;
+	top: 100%;
+}

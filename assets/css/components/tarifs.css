@@ -1,0 +1,109 @@
+.tarifs {
+	background: #38B6FF;
+}
+
+.tarifs__content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.tarifs__card {
+	display: block;
+	position: relative;
+	background: #fff;
+	width: 350px;
+	height: auto;
+	padding: 20px 0;
+	border-radius: 20px;
+	text-align: center;
+	color: #333;
+}
+
+.tarifs__card:nth-child(2) {
+	z-index: 999;
+	padding: 60px 0;
+	box-shadow: 0px 0px 10px 4px rgba(56, 182, 255, 1);
+}
+
+.tarifs__card ul {
+	list-style: none;
+}
+
+.tarifs__card ul li {
+	display: block;
+	position: relative;
+	background: transparent;
+	width: 100%;
+	height: auto;
+	padding: 5px 10px;
+	font-size: 14px;
+}
+
+.tarifs__card ul li:nth-child(even) {
+	background: #f1f1f1;
+}
+
+.tarifs__card ul li i {
+	font-weight: lighter;
+	color: #737373;
+}
+
+.tarifs__name {
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+.tarifs__muted {
+	font-size: 15px;
+	font-weight: lighter;
+	color: #737373;
+	text-transform: uppercase;
+}
+
+.tarifs__price {
+	font-size: 60px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.tarifs__price sup {
+	font-size: 30px;
+}
+
+.tarifs__sep {
+	display: block;
+	position: relative;
+	width: 100px;
+	height: 5px;
+	background: #38B6FF;
+	margin: 10px auto;
+}
+
+.tarifs__btn {
+	display: block;
+	margin: 0 auto;
+	width: fit-content;
+	height: auto;
+	padding: 15px 25px;
+	border-radius: 20px;
+	color: #fff;
+	background: #38B6FF;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+@media (max-width: 1199px) {
+	.tarifs__card:nth-child(2) {padding: 20px 0;box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);}
+	.tarifs__card {margin: 20px;}
+}
+
+@media (max-width: 991px) {
+	.tarifs__card {width: 500px;}
+}

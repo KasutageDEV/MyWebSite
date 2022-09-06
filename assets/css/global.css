@@ -1,0 +1,17 @@
+/*COMPONENTS*/
+@import 'components/section.css';
+@import 'components/landing.css';
+@import 'components/presentation.css';
+@import 'components/skills.css';
+@import 'components/work.css';
+@import 'components/tarifs.css';
+@import 'components/contact.css';
+
+/*LAYOUTS*/
+@import 'layouts/header.css';
+@import 'layouts/footer.css';
+@import 'layouts/soon.css';
+
+/*MORE*/
+@import 'more/bootstrap-grid.css';
+@import 'more/reset.css';

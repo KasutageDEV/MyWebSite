@@ -1,0 +1,125 @@
+.soon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+
+.soon__top {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.soon__bottom {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.soon__infos {
+	font-size: 16px;
+	font-weight: 300;
+	text-align: center;
+	max-width: 600px;
+	color: #737373;
+	margin-bottom: 50px;
+	line-height: 25px;
+	letter-spacing: 1px;
+}
+
+.soon__infos span {
+	display: block;
+	margin-bottom: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	color: #333;
+}
+
+.soon__newslatter {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.soon__title {
+	font-size: 35px;
+	font-weight: bold;
+	color: #38B6FF;
+	text-transform: uppercase;
+}
+
+.soon__subtitle {
+	font-size: 18px;
+	font-weight: 200;
+	color: #737373;
+	margin-bottom: 20px;
+}
+
+.soon__form {
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+}
+
+.soon__input {
+	position: relative;
+	background: #f1f1f1;
+	width: 400px;
+	height: 60px;
+	border-radius: 10px 0 0 10px;
+	padding: 0 25px;
+	border: none;
+	outline: none;
+}
+
+.soon__btn {
+	width: 60px;
+	height: 60px;
+	border-radius: 0 10px 10px 0;
+	border: none;
+	outline: none;
+	background: #38B6FF;
+	color: #fff;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.soon__alert {
+	position: relative;
+	background: #38B6FF;
+	height: auto;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 18px;
+	padding: 20px 10px;
+	margin-bottom: 20px;
+}
+
+.soon__alert--success {background: #38B6FF;}
+.soon__alert--danger {background: #ff3838;}
+
+@media (max-width: 499px) {
+	.soon__infos {max-width: 400px;}
+	.soon__title {font-size: 30px;}
+	.soon__input {width: 350px;height: 45px;padding: 0 15px;}
+	.soon__btn {width: 45px;height: 45px;font-size: 25px;}
+}
+
+@media (max-width: 409px) {
+	.soon__infos {max-width: 300px;font-size: 15px;}
+	.soon__infos span {font-size: 18px;}
+	.soon__title {font-size: 18px;}
+	.soon__subtitle {font-size: 15px;}
+	.soon__input {width: 300px;}
+}
